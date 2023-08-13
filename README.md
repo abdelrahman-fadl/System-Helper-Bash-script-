@@ -14,12 +14,7 @@ The following features are available in System-Admin-Helper:
 - Modify user
 ## Usage
 To use System-Admin-Helper, simply run the desired script from the command line. For example, to add a user, run menu script:-
-```
-./menu
-```
-The script will prompt you for the necessary information using whiptail.
 
-## Scripts
 
 The following scripts are included in System-Admin-Helper:
 
@@ -30,13 +25,3 @@ The following scripts are included in System-Admin-Helper:
 - list_users - Lists all users.
 - list_groups - Lists all groups.
 - modify_user - Modifies an existing user based on your selection
-# Prerequisite
-- install whiptail to create more user-friendly interactive scripts
-```
-[damon@localhost ~]$ sudo dnf install newt
-```
-# GUI
-https://github.com/mostafa-magdi/Syestem-Admin-Helper/assets/129240702/68d335c8-7c3b-4405-b1de-9867c8ee8471
-
-# Conclusion
-- System-Admin-Helper is a simple GUI that help Linux administrator to manage there users and groups based on a collection of shell script files The scripts use whiptail to provide an interactive user interface.
